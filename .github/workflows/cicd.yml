@@ -2,7 +2,7 @@ name: Cicd Pipeline
 
 on:
   push:
-    branches: [ "maain" ]
+    branches: [ "master" ]
 
 jobs:
   compile:
