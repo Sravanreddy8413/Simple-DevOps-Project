@@ -19,5 +19,5 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Test Workflow  
-      run: echo "GitHub Actions is working!" 
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
